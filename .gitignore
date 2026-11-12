@@ -1,0 +1,46 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### 编辑器 / AI 工具生成物 ###
+.proxyai/
+PROXYAI.md
+.vscode/
+*.log
+
+### nginx 运行时产物（每次启动 nginx 都会变化，不应提交）###
+src/main/resources/nginx-1.18.0/logs/*.log
+src/main/resources/nginx-1.18.0/logs/*.pid
+src/main/resources/nginx-1.18.0/temp/*
+!src/main/resources/nginx-1.18.0/temp/.gitkeep
+
